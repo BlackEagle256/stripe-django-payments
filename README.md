@@ -54,8 +54,8 @@ pip install django
 Open stripe_project/settings.py and configure:
 
 ```python
-STRIPE_SECRET_KEY = 'sk_test_your_key_here'
-STRIPE_PUBLISHABLE_KEY = 'pk_test_your_key_here'
+STRIPE_SECRET_KEY = 'YOUR_SECRET_STRIPE_KEY'
+STRIPE_PUBLISHABLE_KEY = 'YOUR_PUBLIC_STRIPE_KEY'
 ```
 
     For production apps, use environment variables instead of hardcoding keys.
